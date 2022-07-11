@@ -1,0 +1,819 @@
+{
+    // Complete
+    "empireCards": [
+        {
+            "name": "Noram States",
+            "production": {
+                "materials": 3,
+                "gold": 1
+            },
+            "victoryPoints": {
+                "financiers": 1
+            }
+        },
+        {
+            "name": "Aztec Empire",
+            "production": {
+                "energy": 2,
+                "exploration": 1
+            },
+            "victoryPoints": {
+                "discovery": 3
+            }
+        },
+        {
+            "name": "Federation of Asia",
+            "production": {
+                "materials": 1,
+                "gold": 2
+            },
+            "victoryPoints": {
+                "project": 2
+            }
+        },
+        {
+            "name": "Panafrican Union",
+            "production": {
+                "materials": 2,
+                "science": 2
+            },
+            "victoryPoints": {
+                "research": 2
+            }
+        },
+        {
+            "name": "Republic of Europe",
+            "production": {
+                "materials": 2,
+                "energy": 1,
+                "science": 1
+            },
+            "victoryPoints": {
+                "generals": 1
+            }
+        }
+    ],
+
+    // WIP
+    "developmentCards": [
+        {
+            "name": "Quantum Generator",
+            "cardCopies": 1,
+            "cardType": "research",
+            "recyclingBonus": "energy",
+            "constructionCost": {
+                "science": 5
+            },
+            "production": {
+                "energy": 3
+            },
+            "victoryPoints": {
+                "vehicle": 1
+            }
+        },
+        {
+            "name": "Zeppelin",
+            "cardCopies": 6,
+            "cardType": "vehicle",
+            "recyclingBonus": "discovery",
+            "constructionCost": {
+                "energy": 2
+            },
+            "production": {
+                "discovery": 1
+            }
+        },
+        {
+            "name": "Transportation Network",
+            "cardCopies": 2,
+            "cardType": "structure",
+            "recyclingBonus": "materials",
+            "constructionCost": {
+                "materials": 3
+            },
+            "victoryPoints": {
+                "vehicle": 1
+            }
+        },
+        {
+            "name": "Ark of the Covenant",
+            "cardCopies": 1,
+            "cardType": "discovery",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+        {
+            "name": "",
+            "cardCopies": 0,
+            "cardType": "",
+            "recyclingBonus": "",
+            "constructionCost": {
+                "": 0
+            },
+            "constructionBonus": {
+                "": 0
+            },
+            "production": {
+                "": 0
+            },
+            "victoryPoints": {
+                "": 0
+            }
+        },
+    ]
+}

@@ -1,0 +1,18 @@
+Resources: 
+    materials (gray, 35)
+    energy (black, 30)
+    science (green, 30)
+    gold (yellow, 30)
+    exploration (blue, 30)
+    krystallium (red, 15)
+
+Characters:
+    generals (red, 40)
+    financiers (blue, 40)
+
+Card Types:
+    structure (gray)
+    vehicle (black)
+    research (green)
+    project (yellow)
+    discovery (blue)
