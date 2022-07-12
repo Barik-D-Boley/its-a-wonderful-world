@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "main.scss",
+        "components/_index.scss",
+        "pages/_index.scss",
+        "pages/_devCardCreate.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

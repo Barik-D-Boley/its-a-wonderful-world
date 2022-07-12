@@ -1,16 +1,16 @@
 const express = require('express');
 const app = express();
-const products = require('./routes/products');
+const devCards = require('./routes/devCards');
 const connectDB = require('./db/connect');
-const { connect } = require('./routes/products');
-// const populateProducts = require('./populate');
+const { connect } = require('./routes/devCards');
+// const populateDevCards = require('./populate');
 require('dotenv').config();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(express.json());
-app.use('/api/v1/cards', products);
+app.use('/api/v1/devCards', devCards);
 app.use(express.static('public'));
 
 const start = async () => {

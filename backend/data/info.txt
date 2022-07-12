@@ -16,3 +16,5 @@ Card Types:
     research (green)
     project (yellow)
     discovery (blue)
+
+Development Cards
