@@ -2,14 +2,16 @@ import React from 'react'
 
 function devCard() {
     const devForm = document.getElementById('dev-card-form');
-    devForm.addEventListener('submit', async (e) => {
-        e.preventDefault();
-
-        const devCard = {
-            
-        }
-    })
-    console.log('Dev Form', devForm);
+    if (devForm) {
+        devForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+    
+            // const devCard = {
+                
+            // }
+            console.log("Submit");
+        })
+    }
 
     return (
         <div>
@@ -145,7 +147,9 @@ function devCard() {
                     
                     <label htmlFor="financier">Financier:</label>
                     <input name="financier" type="number" min={0} step={1} /><br />
-                </div>
+                </div><br />
+
+                <input type="submit" />
             </form>
         </div>
     )
