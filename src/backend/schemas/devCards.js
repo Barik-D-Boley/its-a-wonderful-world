@@ -43,11 +43,6 @@ const DevCardSchema = new mongoose.Schema({
     constructionBonus: {
         type: Object,
         properties: {
-            materials: { type: Number },
-            energy: { type: Number },
-            science: { type: Number },
-            gold: { type: Number },
-            exploration: { type: Number },
             krystallium: { type: Number },
             general: { type: Number },
             financier: { type: Number }
