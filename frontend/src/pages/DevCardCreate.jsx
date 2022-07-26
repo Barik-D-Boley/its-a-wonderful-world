@@ -6,6 +6,7 @@ function devCard() {
 
         const devName = document.getElementById('dev-name'),
             devCopies = document.getElementById('dev-copies'),
+            devOrigin = document.getElementById('dev-origin'),
             devType = document.getElementById('dev-type'),
             devRecycle = document.getElementById('dev-recycle'),
 
@@ -44,6 +45,7 @@ function devCard() {
         const devCard = {
             name: devName.value,
             cardCopies: devCopies.value,
+            cardOrigin: devOrigin.value,
             cardType: devType.value,
             recyclingBonus: devRecycle.value,
             constructionCost: {
@@ -108,6 +110,14 @@ function devCard() {
                 {/* Card Copies */}
                 <label htmlFor="dev-copies">Copies*:</label>
                 <input id="dev-copies" type="number" placeholder="1" min={1} step={1} required /><br />
+
+                {/* Card Origin */}
+                <label htmlFor="dev-origin">Origin*:</label>
+                <select name="dev-origin" id="dev-origin" required>
+                    <option value="base game">Base Game</option>
+                    <option value="corruption and ascension">Corruption and Ascension</option>
+                    <option value="custom">Custom</option>
+                </select><br />
 
                 {/* Card Type */}
                 <label htmlFor="dev-type">Card Type*:</label>

@@ -10,6 +10,14 @@ const DevCardSchema = new mongoose.Schema({
         type: Number,
         required: [true, 'Must provide an amount of copies']
     },
+    cardOrigin: {
+        type: String,
+        required: [true, 'Must provide an origin'],
+        enum: { 
+            values: ['base game', 'corruption and ascension', 'custom'], 
+            message: '{VALUE} is not supported'
+        }
+    },
     cardType: {
         type: String,
         required: [true, 'Must provide a card type'],
